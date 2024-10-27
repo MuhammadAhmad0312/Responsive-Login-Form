@@ -1,0 +1,168 @@
+.from-img{
+    background-image: url(/Meida/beautyfull_reg_bg.jpg);
+ height: 900px;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+     position: relative;
+     
+     height: 520px;
+}
+
+.text-child{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.form-padding{
+    margin-top: 80px;
+    
+}
+.form-style{
+    
+    height: 600px;  
+    margin-top: -25px;
+    border: 1px solid rgb(253, 234, 226);
+    border-radius:10px ;
+    background-color: rgba(255,255,255,.5);
+    backdrop-filter: blur(30px);
+    
+    
+}
+.py-4{
+    padding-bottom: 0px !important;
+}
+.password-parent{
+    position: relative;
+}
+.password-child{
+    position: absolute;
+
+    top: 0;
+    right: 0;
+}
+.password-icon{
+    margin-right: 10px;
+}
+.border{
+    border-radius: 10px;
+}
+.text-purple{
+    color: rgb(100, 68, 134);
+    font-size: 13px;
+    
+}
+.button{
+    width: 100%;
+    background-color: linear-gradient(to right, red , yellow);
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+    width: 100%;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: none;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  .login{
+    color: purple;
+    font-size: 12px;
+    font-weight: 300px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+ 
+@media screen and (min-width:768px) and (max-width:992px) {
+    .text-child{
+        position: absolute;
+        margin-left: 0px;
+        
+    
+    }
+    .form-style-tab{
+    
+        height: 650px ;  
+        
+       
+        border: 1px solid rgb(253, 234, 226);
+        border-radius:10px ;
+        background-color: rgba(255,255,255,.5);
+        
+    }
+    .tab-style{
+        padding: 0px;
+        margin-left: 10px;
+        
+    }
+    
+    .form-padding{
+        margin-top: 50px;
+        
+    }
+    .tab-display-none{
+        display: block;
+        display: none;
+    }
+    
+}
+
+@media  screen and (min-width:320px) and (max-width:767px) {
+    .mob-display-none{
+        display: block;
+        display: none;
+    }
+    .text{
+        display: block;
+        display: none;
+    }
+    .form-style-mob{
+    
+        height: 750px;  
+       
+        border: 1px solid rgb(253, 234, 226);
+        border-radius:10px ;
+        background-color: rgba(255,255,255,.5);
+        
+    }
+}
+
+@media  screen and (min-width:993px) and (max-width:1824px) {
+    .form-style-lg{
+    
+        height: 750px;  
+       
+        border: 1px solid rgb(253, 234, 226);
+        border-radius:10px ;
+        background-color: rgba(255,255,255,.5);
+        
+    }
+   .lg-display-none{
+    display: block;
+    display: none;
+   }
+}
+
+
+
+
